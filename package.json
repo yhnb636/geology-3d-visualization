@@ -1,0 +1,17 @@
+{
+  "name": "geology-3d-visualization",
+  "version": "1.0.0",
+  "description": "地学数据三维可视化系统",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 3000 -c-1",
+    "dev": "http-server -p 3000 -c-1 -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["三维可视化", "地学数据", "vtk.js", "课程设计"],
+  "author": "你的小组",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

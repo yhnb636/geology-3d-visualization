@@ -1,0 +1,45 @@
+{
+  "project": {
+    "name": "地学数据三维可视化系统",
+    "version": "1.0.0",
+    "description": "基于vtk.js的地学数据三维可视化课程设计项目",
+    "course": "2025年课程设计",
+    "group": {
+      "members": ["乐杭", "武超凡", "谢世乐"],
+      "school": "你的学校"
+    }
+  },
+  "requirements": {
+    "nodeVersion": ">=14.0.0",
+    "browsers": ["Chrome >= 80", "Firefox >= 75", "Edge >= 80"],
+    "dependencies": {
+      "http-server": "用于本地服务器",
+      "vtk.js": "用于三维可视化"
+    }
+  },
+  "files": {
+    "required": [
+      "index.html",
+      "main-simple.js",
+      "dem-simple.js",
+      "segy-simple.js",
+      "vtk.js",
+      "data/f3_sm_real.json",
+      "data/new_dem.tif"
+    ],
+    "optional": [
+      "package.json",
+      "README.md",
+      "start.bat",
+      "start.sh"
+    ]
+  },
+  "ports": {
+    "default": 3000,
+    "alternatives": [8080, 8000, 3000]
+  },
+  "testing": {
+    "url": "http://localhost:3000",
+    "testPage": "test-buttons.html"
+  }
+}
